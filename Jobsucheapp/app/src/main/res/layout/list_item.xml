@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:background="@drawable/buttensbackround"
+    android:stateListAnimator="@drawable/anim">
+
+    <ImageView
+        android:background="@drawable/imagesbackroung"
+        android:id="@+id/imageLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/textDesc"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="some name" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/textLand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="some desc" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
